@@ -1,9 +1,9 @@
 function RotVel_DWT_PerSignal
 
-% HM = 'EL';
+HM = 'EL';
 % HM = 'ER';
 % HM = 'RL';
-HM = 'RR';
+% HM = 'RR';
 
 % ax = 'X';
 % ax = 'Y';
@@ -70,11 +70,19 @@ coefsCell = decROW.cd;
 for j = 1:level
     ar = coefsCell{j};
     for k = 1:46
+        % L vector contains the lengths of the coefs vectors
         coefsPower(k, j) = (norm(ar(k,:))^2) / L(level+2 - j);
     end
 end
+% save the sum of coefficients for levels 3-6
 coefsPower3_6 = coefsPower(:,3)+coefsPower(:,4)+coefsPower(:,5)+coefsPower(:,6);
 varName = strcat('wavDetCoefsPower_3_6_', HM);
 eval(strcat(varName, ' = coefsPower3_6;'));
+fileName = strcat(varName, '.mat');
+eval(['save', ' ', fileName, ' ', varName]);
+
+coefsPower;
+varName = strcat('wavDetCoefsPower_', HM);
+eval(strcat(varName, ' = coefsPower;'));
 fileName = strcat(varName, '.mat');
 eval(['save', ' ', fileName, ' ', varName]);
