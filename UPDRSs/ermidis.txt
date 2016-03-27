@@ -1,0 +1,48 @@
+From: Marianthi Arnaoutoglou <manispanou@icloud.com>
+Subject: ermidis UPDRS Results 05/22/2013 01:11μ.μ.
+Date: May 22, 2013 at 1:11:55 PM GMT+3
+To: nikkostikis@gmail.com
+
+UPDRS Results
+
+Patient Number: ermidis
+Date: 05/22/2013 01:11μ.μ.
+
+
+Motor Section Score
+Section Total Score: 16
+18. Speech: 2
+19. Facial Expression: 2
+20a. Tremor at Rest: Face: 0
+20b. Tremor at Rest: Right Hand: 0
+20c. Tremor at Rest: Left Hand: 0
+20d. Tremor at Rest: Right Foot: 0
+20e. Tremor at Rest: Left Foot: 3
+21a. Hand Action Tremor: Right: 1
+21b. Hand Action Tremor: Left: 1
+22a. Rigidity: Neck: 0
+22b. Rigidity: Right Arm: 1
+22c. Rigidity: Left Arm: 1
+22d. Rigidity: Right Leg: 1
+22e. Rigidity: Left Leg: 1
+23a. Finger Taps: Right: 0
+23b. Finger Taps: Left: 0
+24a. Hand Movements: Right: 1
+24b. Hand Movements: Left: 0
+25a. Rapid Alt. Mvmt: Right: 0
+25b. Rapid Alt. Mvmt: Left: 0
+26a. Leg Agility: Right: 0
+26b. Leg Agility: Left: 0
+27. Arising From Chair: 0
+28. Posture: 1
+29. Gait: 0
+30. Postural Stability: 0
+31. Body Bradykinesia: 1
+
+Hoehn/Yahr & Schwab Results
+Hoehn/Yahr: Stage 2
+Schwab/England PD: 70%
+Schwab/England Dyskinesia: 70%
+
+
+Από το iPhone μου

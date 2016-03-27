@@ -1,0 +1,48 @@
+From: Marianthi Arnaoutoglou <manispanou@icloud.com>
+Subject: vasiliadou p UPDRS Results 10/16/2013 02:15μ.μ.
+Date: October 16, 2013 at 2:15:30 PM GMT+3
+To: nikkostikis@gmail.com
+
+UPDRS Results
+
+Patient Number: vasiliadou p
+Date: 10/16/2013 02:15μ.μ.
+
+
+Motor Section Score
+Section Total Score: 5
+18. Speech: 0
+19. Facial Expression: 0
+20a. Tremor at Rest: Face: 0
+20b. Tremor at Rest: Right Hand: 0
+20c. Tremor at Rest: Left Hand: 0
+20d. Tremor at Rest: Right Foot: 0
+20e. Tremor at Rest: Left Foot: 0
+21a. Hand Action Tremor: Right: 0
+21b. Hand Action Tremor: Left: 0
+22a. Rigidity: Neck: 0
+22b. Rigidity: Right Arm: 1
+22c. Rigidity: Left Arm: 0
+22d. Rigidity: Right Leg: 0
+22e. Rigidity: Left Leg: 0
+23a. Finger Taps: Right: 0
+23b. Finger Taps: Left: 1
+24a. Hand Movements: Right: 0
+24b. Hand Movements: Left: 1
+25a. Rapid Alt. Mvmt: Right: 0
+25b. Rapid Alt. Mvmt: Left: 1
+26a. Leg Agility: Right: 0
+26b. Leg Agility: Left: 0
+27. Arising From Chair: 0
+28. Posture: 0
+29. Gait: 0
+30. Postural Stability: 0
+31. Body Bradykinesia: 1
+
+Hoehn/Yahr & Schwab Results
+Hoehn/Yahr: Stage 1
+Schwab/England PD: 100%
+Schwab/England Dyskinesia: 100%
+
+
+Από το iPhone μου

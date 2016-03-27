@@ -1,0 +1,48 @@
+From: Marianthi Arnaoutoglou <manispanou@icloud.com>
+Subject: mpogdakis UPDRS Results 10/16/2013 01:47μ.μ.
+Date: October 16, 2013 at 1:47:42 PM GMT+3
+To: nikkostikis@gmail.com
+
+UPDRS Results
+
+Patient Number: mpogdakis
+Date: 10/16/2013 01:47μ.μ.
+
+
+Motor Section Score
+Section Total Score: 5
+18. Speech: 0
+19. Facial Expression: 0
+20a. Tremor at Rest: Face: 0
+20b. Tremor at Rest: Right Hand: 1
+20c. Tremor at Rest: Left Hand: 0
+20d. Tremor at Rest: Right Foot: 2
+20e. Tremor at Rest: Left Foot: 1
+21a. Hand Action Tremor: Right: 1
+21b. Hand Action Tremor: Left: 0
+22a. Rigidity: Neck: 0
+22b. Rigidity: Right Arm: 0
+22c. Rigidity: Left Arm: 0
+22d. Rigidity: Right Leg: 0
+22e. Rigidity: Left Leg: 0
+23a. Finger Taps: Right: 0
+23b. Finger Taps: Left: 0
+24a. Hand Movements: Right: 0
+24b. Hand Movements: Left: 0
+25a. Rapid Alt. Mvmt: Right: 0
+25b. Rapid Alt. Mvmt: Left: 0
+26a. Leg Agility: Right: 0
+26b. Leg Agility: Left: 0
+27. Arising From Chair: 0
+28. Posture: 0
+29. Gait: 0
+30. Postural Stability: 0
+31. Body Bradykinesia: 0
+
+Hoehn/Yahr & Schwab Results
+Hoehn/Yahr: Stage 1.5
+Schwab/England PD: 100%
+Schwab/England Dyskinesia: 100%
+
+
+Από το iPhone μου

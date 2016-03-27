@@ -1,0 +1,736 @@
+2016-3-23-13-5-27
+
+Name: Alexandridou 	 Label: RR 
+23.410985 	 20.999607 	 21.955635 	 
+
+
+Name: Alexandropoulou 	 Label: RR 
+188.961955 	 69.957403 	 39.459432 	 
+
+
+Name: Balta 	 Label: RR 
+24.561436 	 18.422654 	 16.085996 	 
+
+
+Name: Blekas 	 Label: RR 
+61.439562 	 19.210221 	 16.828434 	 
+
+
+Name: Gialamas 	 Label: RR 
+101.508780 	 52.740327 	 35.525173 	 
+
+
+Name: Kalogianni 	 Label: RR 
+38.354111 	 17.313299 	 16.090727 	 
+
+
+Name: Karatasiou 	 Label: RR 
+22.459288 	 20.114271 	 16.399283 	 
+
+
+Name: Karipidis 	 Label: RR 
+47.870006 	 16.276017 	 22.568258 	 
+
+
+Name: Katos 	 Label: RR 
+90.320056 	 22.249741 	 22.791498 	 
+
+
+Name: Katsouli 	 Label: RR 
+58.161926 	 19.765734 	 19.133779 	 
+
+
+Name: Kogiou 	 Label: RR 
+58.988984 	 15.781206 	 13.472458 	 
+
+
+Name: Kostikis 	 Label: RR 
+167.832609 	 23.595694 	 24.718318 	 
+
+
+Name: Kouzis 	 Label: RR 
+43.203587 	 17.498405 	 19.745217 	 
+
+
+Name: Mandas 	 Label: RR 
+33.320603 	 17.140204 	 20.649536 	 
+
+
+Name: Manika 	 Label: RR 
+73.066489 	 21.200553 	 27.013299 	 
+
+
+Name: Manikas 	 Label: RR 
+175.783537 	 30.731621 	 25.921953 	 
+
+
+Name: Panousi 	 Label: RR 
+34.204192 	 19.495824 	 13.810157 	 
+
+
+Name: Stefanidis 	 Label: RR 
+119.444857 	 104.182847 	 37.378496 	 
+
+
+Name: Vatamos 	 Label: RR 
+44.979720 	 23.373213 	 29.124590 	 
+
+
+Name: xKostiki 	 Label: RR 
+94.113288 	 49.741373 	 28.954891 	 
+
+
+Name: Alexiou 	 Label: RR 
+1936.387196 	 33.987036 	 28.188014 	 
+
+
+Name: Anastasiadou 	 Label: RR 
+972.702323 	 89.343149 	 40.329062 	 
+
+
+Name: Andreadis 	 Label: RR 
+142.955455 	 39.885364 	 91.972829 	 
+
+
+Name: Bilika 	 Label: RR 
+44523.627250 	 4576.351943 	 2371.312430 	 
+
+
+Name: Bogdakis 	 Label: RR 
+482.321452 	 53.028466 	 71.570633 	 
+
+
+Name: Chatzi 	 Label: RR 
+111.259884 	 34.105785 	 17.815034 	 
+
+
+Name: Chatzipavlidis 	 Label: RR 
+82.557302 	 20.176827 	 19.785685 	 
+
+
+Name: Dadios 	 Label: RR 
+638.907521 	 88.112735 	 63.819966 	 
+
+
+Name: Delias 	 Label: RR 
+552.066122 	 65.493295 	 28.722852 	 
+
+
+Name: Elanidou 	 Label: RR 
+10749.131144 	 593.442935 	 313.797411 	 
+
+
+Name: Ermidis 	 Label: RR 
+145.371331 	 27.659560 	 32.294332 	 
+
+
+Name: Fourkioti 	 Label: RR 
+36.168461 	 18.925888 	 19.624447 	 
+
+
+Name: Galiota 	 Label: RR 
+362.562583 	 62.356832 	 65.743036 	 
+
+
+Name: Iliadis 	 Label: RR 
+425.797262 	 103.774774 	 59.530098 	 
+
+
+Name: Kalianidis 	 Label: RR 
+6873.653517 	 940.532841 	 1797.731874 	 
+
+
+Name: Karipidou 	 Label: RR 
+123.871706 	 38.112552 	 19.712400 	 
+
+
+Name: Koukouli 	 Label: RR 
+534.223899 	 222.467899 	 186.132819 	 
+
+
+Name: Maronitis 	 Label: RR 
+282.948849 	 67.264072 	 45.284715 	 
+
+
+Name: Moulaimeri 	 Label: RR 
+208.235669 	 17.450659 	 37.876015 	 
+
+
+Name: Myoglou 	 Label: RR 
+206.712666 	 27.771407 	 19.746352 	 
+
+
+Name: Nikolaides 	 Label: RR 
+64.637046 	 26.714944 	 22.837879 	 
+
+
+Name: Panidis 	 Label: RR 
+25.591270 	 16.408326 	 16.213217 	 
+
+
+Name: Pasiapalini 	 Label: RR 
+435.738645 	 39.384651 	 47.143730 	 
+
+
+Name: Poutsiki 	 Label: RR 
+265.682478 	 545.718855 	 44.515019 	 
+
+
+Name: Stokas 	 Label: RR 
+920.364683 	 1953.448692 	 268.009147 	 
+
+
+Name: Vasileiadou 	 Label: RR 
+54.370935 	 16.457772 	 32.557784 	 
+
+
+Name: Alexandridou 	 Label: RL 
+27.650419 	 17.671452 	 23.070237 	 
+
+
+Name: Alexandropoulou 	 Label: RL 
+88.032325 	 34.168946 	 27.136103 	 
+
+
+Name: Balta 	 Label: RL 
+37.697747 	 17.693866 	 14.143106 	 
+
+
+Name: Blekas 	 Label: RL 
+20.559044 	 16.454508 	 16.117699 	 
+
+
+Name: Gialamas 	 Label: RL 
+85.487833 	 46.888195 	 24.461407 	 
+
+
+Name: Kalogianni 	 Label: RL 
+18.689888 	 17.737470 	 17.360392 	 
+
+
+Name: Karatasiou 	 Label: RL 
+32.061780 	 18.326587 	 14.607540 	 
+
+
+Name: Karipidis 	 Label: RL 
+41.227990 	 17.694776 	 25.274379 	 
+
+
+Name: Katos 	 Label: RL 
+60.601033 	 22.375005 	 21.486881 	 
+
+
+Name: Katsouli 	 Label: RL 
+162.231833 	 35.678674 	 23.887717 	 
+
+
+Name: Kogiou 	 Label: RL 
+42.492966 	 17.463326 	 15.488870 	 
+
+
+Name: Kostikis 	 Label: RL 
+93.823068 	 34.889246 	 25.253275 	 
+
+
+Name: Kouzis 	 Label: RL 
+56.336545 	 19.716205 	 18.149662 	 
+
+
+Name: Mandas 	 Label: RL 
+28.061228 	 18.239243 	 24.925457 	 
+
+
+Name: Manika 	 Label: RL 
+47.122625 	 20.105861 	 19.819512 	 
+
+
+Name: Manikas 	 Label: RL 
+153.865555 	 43.430903 	 26.155315 	 
+
+
+Name: Panousi 	 Label: RL 
+30.107998 	 12.280898 	 16.295650 	 
+
+
+Name: Stefanidis 	 Label: RL 
+105.814269 	 29.567962 	 30.794175 	 
+
+
+Name: Vatamos 	 Label: RL 
+52.635330 	 30.547647 	 24.536351 	 
+
+
+Name: xKostiki 	 Label: RL 
+394.997994 	 18.996189 	 27.620810 	 
+
+
+Name: Alexiou 	 Label: RL 
+665.356473 	 131.412649 	 44.177970 	 
+
+
+Name: Anastasiadou 	 Label: RL 
+90.167108 	 33.484098 	 103.138164 	 
+
+
+Name: Andreadis 	 Label: RL 
+281.174849 	 42.385632 	 59.514191 	 
+
+
+Name: Bilika 	 Label: RL 
+447.674798 	 55.674854 	 89.722933 	 
+
+
+Name: Bogdakis 	 Label: RL 
+3712.727554 	 1264.854128 	 426.843689 	 
+
+
+Name: Chatzi 	 Label: RL 
+5196.288186 	 319.846933 	 114.321858 	 
+
+
+Name: Chatzipavlidis 	 Label: RL 
+41.462638 	 19.974083 	 21.739952 	 
+
+
+Name: Dadios 	 Label: RL 
+469.291684 	 39.748312 	 79.734877 	 
+
+
+Name: Delias 	 Label: RL 
+4460.855641 	 27064.734084 	 343.999386 	 
+
+
+Name: Elanidou 	 Label: RL 
+85.187236 	 25.474660 	 18.538819 	 
+
+
+Name: Ermidis 	 Label: RL 
+329.110123 	 30.394034 	 47.585711 	 
+
+
+Name: Fourkioti 	 Label: RL 
+93.046914 	 23.664988 	 16.685182 	 
+
+
+Name: Galiota 	 Label: RL 
+2763.798398 	 139.708098 	 309.373899 	 
+
+
+Name: Iliadis 	 Label: RL 
+262.754555 	 271.559794 	 45.828281 	 
+
+
+Name: Kalianidis 	 Label: RL 
+89.576391 	 60.018634 	 59.481979 	 
+
+
+Name: Karipidou 	 Label: RL 
+65.046093 	 31.258414 	 20.476181 	 
+
+
+Name: Koukouli 	 Label: RL 
+12387.156598 	 10744.939422 	 1052.471509 	 
+
+
+Name: Maronitis 	 Label: RL 
+124.615751 	 71.710822 	 36.047280 	 
+
+
+Name: Moulaimeri 	 Label: RL 
+127.929274 	 18.387533 	 20.786209 	 
+
+
+Name: Myoglou 	 Label: RL 
+116.485251 	 22.292828 	 38.107876 	 
+
+
+Name: Nikolaides 	 Label: RL 
+209.004591 	 200.112031 	 75.109850 	 
+
+
+Name: Panidis 	 Label: RL 
+164.936207 	 20.026449 	 20.939869 	 
+
+
+Name: Pasiapalini 	 Label: RL 
+86.157742 	 25.492730 	 23.238646 	 
+
+
+Name: Poutsiki 	 Label: RL 
+239.153392 	 22.637408 	 27.718560 	 
+
+
+Name: Stokas 	 Label: RL 
+137.902341 	 82.641237 	 36.623097 	 
+
+
+Name: Vasileiadou 	 Label: RL 
+51.352063 	 23.060855 	 31.977398 	 
+
+
+Name: Alexandridou 	 Label: ER 
+399.680419 	 28.940568 	 20.375743 	 
+
+
+Name: Alexandropoulou 	 Label: ER 
+1992.401207 	 423.656795 	 206.156092 	 
+
+
+Name: Balta 	 Label: ER 
+606.368240 	 158.016640 	 71.439957 	 
+
+
+Name: Blekas 	 Label: ER 
+859.875774 	 35.626852 	 26.261711 	 
+
+
+Name: Gialamas 	 Label: ER 
+1162.997805 	 378.988229 	 217.106668 	 
+
+
+Name: Kalogianni 	 Label: ER 
+877.719370 	 26.782026 	 21.967483 	 
+
+
+Name: Karatasiou 	 Label: ER 
+444.889098 	 35.345413 	 26.592761 	 
+
+
+Name: Karipidis 	 Label: ER 
+1052.880122 	 253.878161 	 127.948943 	 
+
+
+Name: Katos 	 Label: ER 
+881.334553 	 207.972052 	 98.832427 	 
+
+
+Name: Katsouli 	 Label: ER 
+105.269021 	 80.579259 	 66.045077 	 
+
+
+Name: Kogiou 	 Label: ER 
+663.263324 	 140.480612 	 59.409301 	 
+
+
+Name: Kostikis 	 Label: ER 
+2135.745899 	 290.500727 	 132.349863 	 
+
+
+Name: Kouzis 	 Label: ER 
+424.681351 	 139.860272 	 52.872017 	 
+
+
+Name: Mandas 	 Label: ER 
+682.163589 	 180.102497 	 63.573895 	 
+
+
+Name: Manika 	 Label: ER 
+2183.588464 	 868.433376 	 487.129630 	 
+
+
+Name: Manikas 	 Label: ER 
+3619.022177 	 521.246901 	 251.767979 	 
+
+
+Name: Panousi 	 Label: ER 
+485.308752 	 160.374972 	 90.110242 	 
+
+
+Name: Stefanidis 	 Label: ER 
+1267.381746 	 504.508382 	 426.621629 	 
+
+
+Name: Vatamos 	 Label: ER 
+946.662469 	 613.422499 	 194.330060 	 
+
+
+Name: xKostiki 	 Label: ER 
+3322.698376 	 773.409912 	 688.804258 	 
+
+
+Name: Alexiou 	 Label: ER 
+6751.194980 	 3140.998344 	 986.623816 	 
+
+
+Name: Anastasiadou 	 Label: ER 
+350.090668 	 196.694467 	 149.337562 	 
+
+
+Name: Andreadis 	 Label: ER 
+6084.586150 	 1639.947603 	 364.732985 	 
+
+
+Name: Bilika 	 Label: ER 
+14242.526477 	 91205.324624 	 9911.803873 	 
+
+
+Name: Bogdakis 	 Label: ER 
+2699.483027 	 4392.359266 	 1426.927778 	 
+
+
+Name: Chatzi 	 Label: ER 
+607.894084 	 410.949338 	 227.845749 	 
+
+
+Name: Chatzipavlidis 	 Label: ER 
+2954.619134 	 1200.856742 	 270.349435 	 
+
+
+Name: Dadios 	 Label: ER 
+218698.436281 	 9778.269827 	 1886.159000 	 
+
+
+Name: Delias 	 Label: ER 
+1624.934692 	 1938.526065 	 466.520791 	 
+
+
+Name: Elanidou 	 Label: ER 
+21056.943854 	 3742.636232 	 1627.299366 	 
+
+
+Name: Ermidis 	 Label: ER 
+1311.420905 	 1942.437817 	 294.329604 	 
+
+
+Name: Fourkioti 	 Label: ER 
+920.475250 	 798.362105 	 167.505154 	 
+
+
+Name: Galiota 	 Label: ER 
+1286.404650 	 1420.995677 	 1217.595374 	 
+
+
+Name: Iliadis 	 Label: ER 
+9122.961726 	 5511.973317 	 4316.110396 	 
+
+
+Name: Kalianidis 	 Label: ER 
+89638.495627 	 146581.697315 	 11340.741581 	 
+
+
+Name: Karipidou 	 Label: ER 
+199.966781 	 195.512284 	 100.779159 	 
+
+
+Name: Koukouli 	 Label: ER 
+643.017194 	 302.168976 	 476.959185 	 
+
+
+Name: Maronitis 	 Label: ER 
+1200.087015 	 998.082889 	 195.769309 	 
+
+
+Name: Moulaimeri 	 Label: ER 
+14653.946144 	 5758.643539 	 1033.606394 	 
+
+
+Name: Myoglou 	 Label: ER 
+747.414113 	 362.076394 	 143.944436 	 
+
+
+Name: Nikolaides 	 Label: ER 
+947.267564 	 398.894400 	 113.894430 	 
+
+
+Name: Panidis 	 Label: ER 
+250.904754 	 90.987132 	 63.300667 	 
+
+
+Name: Pasiapalini 	 Label: ER 
+989.738336 	 542.239611 	 210.211680 	 
+
+
+Name: Poutsiki 	 Label: ER 
+39749.972304 	 604239.049821 	 13805.255724 	 
+
+
+Name: Stokas 	 Label: ER 
+31058.824516 	 42788.629363 	 1546.213044 	 
+
+
+Name: Vasileiadou 	 Label: ER 
+1088.762259 	 596.744064 	 241.646202 	 
+
+
+Name: Alexandridou 	 Label: EL 
+481.017488 	 35.149345 	 34.329477 	 
+
+
+Name: Alexandropoulou 	 Label: EL 
+1582.923641 	 774.114308 	 394.358381 	 
+
+
+Name: Balta 	 Label: EL 
+1371.094745 	 349.459698 	 123.111291 	 
+
+
+Name: Blekas 	 Label: EL 
+324.037851 	 27.025642 	 29.753505 	 
+
+
+Name: Gialamas 	 Label: EL 
+607.458305 	 325.188707 	 233.727271 	 
+
+
+Name: Kalogianni 	 Label: EL 
+391.373098 	 34.923051 	 33.044368 	 
+
+
+Name: Karatasiou 	 Label: EL 
+313.549706 	 34.148961 	 30.473989 	 
+
+
+Name: Karipidis 	 Label: EL 
+4501.938131 	 1321.997896 	 164.994436 	 
+
+
+Name: Katos 	 Label: EL 
+1063.857886 	 266.984936 	 63.345009 	 
+
+
+Name: Katsouli 	 Label: EL 
+215.062060 	 158.299462 	 125.621820 	 
+
+
+Name: Kogiou 	 Label: EL 
+1447.457913 	 365.954269 	 107.009502 	 
+
+
+Name: Kostikis 	 Label: EL 
+1653.982548 	 637.201128 	 206.918738 	 
+
+
+Name: Kouzis 	 Label: EL 
+323.756452 	 201.146094 	 44.811120 	 
+
+
+Name: Mandas 	 Label: EL 
+2826.176609 	 394.538524 	 88.416220 	 
+
+
+Name: Manika 	 Label: EL 
+1139.262928 	 454.924809 	 250.179696 	 
+
+
+Name: Manikas 	 Label: EL 
+1087.038240 	 234.324190 	 153.509119 	 
+
+
+Name: Panousi 	 Label: EL 
+3200.774003 	 816.596815 	 125.887916 	 
+
+
+Name: Stefanidis 	 Label: EL 
+1861.854677 	 704.029671 	 279.287106 	 
+
+
+Name: Vatamos 	 Label: EL 
+665.450662 	 281.531848 	 143.175323 	 
+
+
+Name: xKostiki 	 Label: EL 
+913.776101 	 257.010934 	 160.832180 	 
+
+
+Name: Alexiou 	 Label: EL 
+127297.711892 	 18559.371418 	 4455.502003 	 
+
+
+Name: Anastasiadou 	 Label: EL 
+1226.528374 	 807.394318 	 222.893882 	 
+
+
+Name: Andreadis 	 Label: EL 
+2760.147869 	 2185.559063 	 690.697403 	 
+
+
+Name: Bilika 	 Label: EL 
+498.514755 	 456.419611 	 199.554732 	 
+
+
+Name: Bogdakis 	 Label: EL 
+6207.883981 	 5242.590009 	 924.393058 	 
+
+
+Name: Chatzi 	 Label: EL 
+558.746117 	 517.310560 	 176.172255 	 
+
+
+Name: Chatzipavlidis 	 Label: EL 
+1584.876989 	 3203.707633 	 514.297301 	 
+
+
+Name: Dadios 	 Label: EL 
+4775.115756 	 1668.677938 	 721.372280 	 
+
+
+Name: Delias 	 Label: EL 
+8772.734055 	 8777.276930 	 1266.167600 	 
+
+
+Name: Elanidou 	 Label: EL 
+345254.883274 	 111108.478041 	 211962.134876 	 
+
+
+Name: Ermidis 	 Label: EL 
+4753.644398 	 9566.506209 	 627.962363 	 
+
+
+Name: Fourkioti 	 Label: EL 
+27022.507647 	 3587.411447 	 427.953223 	 
+
+
+Name: Galiota 	 Label: EL 
+5351.559135 	 2839.934662 	 5966.559328 	 
+
+
+Name: Iliadis 	 Label: EL 
+4577.170503 	 10270.314634 	 1039.845093 	 
+
+
+Name: Kalianidis 	 Label: EL 
+45333.261746 	 449727.719042 	 81771.571032 	 
+
+
+Name: Karipidou 	 Label: EL 
+261.635206 	 299.727001 	 170.413552 	 
+
+
+Name: Koukouli 	 Label: EL 
+21253.807178 	 19753.561941 	 3787.528269 	 
+
+
+Name: Maronitis 	 Label: EL 
+879.112555 	 739.462609 	 187.295671 	 
+
+
+Name: Moulaimeri 	 Label: EL 
+436.832443 	 170.980817 	 48.923524 	 
+
+
+Name: Myoglou 	 Label: EL 
+708.646685 	 381.397082 	 116.301460 	 
+
+
+Name: Nikolaides 	 Label: EL 
+13541.318524 	 716.727496 	 665.867390 	 
+
+
+Name: Panidis 	 Label: EL 
+1611.888903 	 625.994273 	 205.720571 	 
+
+
+Name: Pasiapalini 	 Label: EL 
+1635.238808 	 671.826038 	 299.887814 	 
+
+
+Name: Poutsiki 	 Label: EL 
+566.443601 	 581.201799 	 290.165579 	 
+
+
+Name: Stokas 	 Label: EL 
+7617.974721 	 6414.444467 	 577.523032 	 
+
+
+Name: Vasileiadou 	 Label: EL 
+1121.805354 	 730.997653 	 294.150092 	 
