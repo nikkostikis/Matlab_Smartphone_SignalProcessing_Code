@@ -2,10 +2,12 @@
 % Some are used for training, others for prediction
 % Four features - each metric
 clear all;
-clc;
+% clc;
+close all;
+
 OH = 20;
 PD =26;
-sizetrain = 15;
+sizetrain = 12;
 pOH = OH - sizetrain;
 pPD = PD - sizetrain;
 
@@ -47,7 +49,7 @@ rating_cellpred=cellstr(rating_cellpred);
 % keyboard;
 
 
-nTrees = 50;
+nTrees = 700;
 
 
 % b = TreeBagger(nTrees, features, rating, 'oobvarimp', 'on', 'oobpred', 'on');
@@ -57,10 +59,11 @@ b = TreeBagger(nTrees, train, ratingtrain, 'Method' , 'classification', 'oobpred
 disp(dataset({conf, classorder{:}}, 'obsnames', classorder));
 TpTn = diag(conf);
 disp({'TN:', num2str(TpTn(1)/pOH), 'TP:', num2str(TpTn(2)/pPD)});
-% figure
-% plot(oobError(b));
-% xlabel 'Number of Grown Trees';
-% ylabel 'Out-of-Bag Mean Squared Error';
+
+figure(100)
+plot(oobError(b));
+xlabel 'Number of Grown Trees';
+ylabel 'Out-of-Bag Mean Squared Error';
 
 figure(10);
 hold on;
@@ -76,6 +79,7 @@ bar(OOBPVDE_pos, 'b');
 OOBPVDE_neg = OOBPVDE;
 OOBPVDE_neg(positiveFeatures) = 0;
 bar(abs(OOBPVDE_neg), 'r');
+hold off;
 
 xlabel 'Feature Number' ;
 ylabel 'Out-of-Bag Feature Importance';
