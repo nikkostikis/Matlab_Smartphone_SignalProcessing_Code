@@ -1,0 +1,7 @@
+My Sensors v1.4
+Device: Samsung SM-G360F
+Version: 3.10.49-777601(G360FXXU1BOH4)
+Date: 19 Απρ 2016 12:37:47 ΠΜ
+Sensor #1: Type: Accelerometer hashCode: 890437160 '{Sensor name="K2HH Acceleration ", vendor="STM", version=1, type=1, maxRange=19.6133, resolution=0.038307227, power=0.13, minDelay=10000}'
+Sensor #2: Type: Proximity hashCode: 494311233 '{Sensor name="GP2A002 Proximity Sensor", vendor="SHARP", version=1, type=8, maxRange=5.0, resolution=0.0, power=0.0, minDelay=0}'
+Sensor #3: Type: Unknown hashCode: 718955750 '{Sensor name="Screen Orientation Sensor", vendor="Samsung Electronics", version=1, type=65558, maxRange=255.0, resolution=0.0, power=0.13, minDelay=0}'
