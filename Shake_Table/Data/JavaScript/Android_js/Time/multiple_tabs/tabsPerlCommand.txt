@@ -1,0 +1,3 @@
+Replaced simple spaces with double tabs with the following command:
+
+perl -pi.old -e 's{ }{\t\t}g' *.txt
