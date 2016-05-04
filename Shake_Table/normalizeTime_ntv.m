@@ -1,4 +1,4 @@
-nikCell = andro_ntv_t; tag = 'a';
+% nikCell = andro_ntv_t; tag = 'a';
 % nikCell = i4_ntv_t; tag = 'i';
 % nikCell = i4s_ntv_t; tag = 'i';
 
@@ -22,6 +22,6 @@ for i = 2:10
     nikCell(i) = {xx};
 end
 
-andro_ntv_t_normalized = nikCell;
+% andro_ntv_t_normalized = nikCell;
 % i4_ntv_t_normalized = nikCell;
 % i4s_ntv_t_normalized = nikCell;

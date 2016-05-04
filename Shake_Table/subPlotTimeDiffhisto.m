@@ -5,7 +5,7 @@
 
 % nikCell = i4_ntv_t_normalized;
 % nikCell = i4s_ntv_t_normalized;
-nikCell = andro_ntv_t_normalized;
+% nikCell = andro_ntv_t_normalized;
 
 figure(200);
 minimum = zeros(1,9);
