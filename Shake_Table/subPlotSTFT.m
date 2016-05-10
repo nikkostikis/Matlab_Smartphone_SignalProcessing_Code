@@ -8,7 +8,6 @@
 nikCell_t = i4s_ntv_t_normalized; nikCell = i4s_ntv; Fs = 100;
 
 % nikCell_t = table_t; nikCell = table; Fs = 800;
-
 figure(300);
 for i = 2:10
     x = nikCell{i};
@@ -28,6 +27,5 @@ for i = 2:10
     fpeaks = f(pkslocs(1:3,2));
     pkspks = pkslocs(1:3,1);
     plot(f, pxx, fpeaks, pkspks, 'or');
-    
     
 end

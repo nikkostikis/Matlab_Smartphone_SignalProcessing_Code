@@ -6,28 +6,21 @@
 % nikCell_t = andro_ntv_t_normalized; nikCell = andro_ntv; Fs = 100;
 % nikCell_t = i4_ntv_t_normalized; nikCell = i4_ntv; Fs = 100;
 nikCell_t = i4s_ntv_t_normalized; nikCell = i4s_ntv; Fs = 100;
+% nikCell = table; Fs = 800;
 
-% nikCell_t = table_t; nikCell = table; Fs = 800;
-
-figure(300);
+figure(500);
 for i = 2:10
     x = nikCell{i};
-    t = nikCell_t{i};
-    t = t./1000; % convert time to seconds - not for table feedback
+%     t = nikCell_t{i};
+%     [pxx, f] = plomb(x, t, 0.012); %set fmax to 12 Hz
     
-    [t ind] = unique(t);
-    x = x(ind);
+    %try spectrogram
     
-    fss = min(Fs/2, 12);
-    
-    [pxx, f] = plomb(x, t, fss); %set fmax to 12 Hz
-    [pks, locs] = findpeaks(pxx);
-%     pkslocs = [pks locs];
-    pkslocs = sortrows([pks locs], -1);
     subplot(3,3,i-1);
-    fpeaks = f(pkslocs(1:3,2));
-    pkspks = pkslocs(1:3,1);
-    plot(f, pxx, fpeaks, pkspks, 'or');
-    
-    
+%     spectrogram(x, 'yaxis');
+%     spectrogram(x, 256, 230, 128, Fs);
+    spectrogram(x, 256, 230, 128, Fs, 'yaxis');
+    view(-72, 72);
+    shading interp
+    colorbar off;
 end

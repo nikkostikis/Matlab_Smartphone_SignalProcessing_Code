@@ -24,10 +24,10 @@ for i = 2:10
     [pks, locs] = findpeaks(pxx);
 %     pkslocs = [pks locs];
     pkslocs = sortrows([pks locs], -1);
-    subplot(3,3,i-1);
+%     subplot(3,3,i-1);
     fpeaks = f(pkslocs(1:3,2));
     pkspks = pkslocs(1:3,1);
+    hold all;
     plot(f, pxx, fpeaks, pkspks, 'or');
-    
     
 end
