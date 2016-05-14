@@ -1,0 +1,577 @@
+
+i =
+
+     2
+
+{Index exceeds matrix dimensions.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 27)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',27,0)">line 27</a>)
+    indx = find(newtime>max(tablet)); newtime = newtime(10:indx(1)); x = x(10:indx(1));
+} 
+subPlotXCorr
+
+i =
+
+     2
+
+[Warning: Cannot extrapolate] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>linearinter', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 145)" style="font-weight:bold">tsinterp>linearinter</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',145,0)">line 145</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>localInterpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 240)" style="font-weight:bold">tsinterp>localInterpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 89)" style="font-weight:bold">tsinterp</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',89,0)">line 89</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsarrayFcn', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m', 26)" style="font-weight:bold">tsarrayFcn</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsdata.interpolation/interpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m', 72)" style="font-weight:bold">tsdata.interpolation/interpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m',72,0)">line 72</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/resample', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m', 106)" style="font-weight:bold">timeseries/resample</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m',106,0)">line 106</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 32)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',32,0)">line 32</a>)] 
+
+rr =
+
+    1.0000    0.9988
+    0.9988    1.0000
+
+
+p =
+
+     1     0
+     0     1
+
+
+i =
+
+     3
+
+[Warning: Cannot extrapolate] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>linearinter', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 145)" style="font-weight:bold">tsinterp>linearinter</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',145,0)">line 145</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>localInterpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 240)" style="font-weight:bold">tsinterp>localInterpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 89)" style="font-weight:bold">tsinterp</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',89,0)">line 89</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsarrayFcn', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m', 26)" style="font-weight:bold">tsarrayFcn</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsdata.interpolation/interpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m', 72)" style="font-weight:bold">tsdata.interpolation/interpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m',72,0)">line 72</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/resample', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m', 106)" style="font-weight:bold">timeseries/resample</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m',106,0)">line 106</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 32)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',32,0)">line 32</a>)] 
+
+rr =
+
+    1.0000    0.9990
+    0.9990    1.0000
+
+
+p =
+
+     1     0
+     0     1
+
+
+i =
+
+     4
+
+[Warning: Cannot extrapolate] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>linearinter', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 145)" style="font-weight:bold">tsinterp>linearinter</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',145,0)">line 145</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>localInterpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 240)" style="font-weight:bold">tsinterp>localInterpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 89)" style="font-weight:bold">tsinterp</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',89,0)">line 89</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsarrayFcn', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m', 26)" style="font-weight:bold">tsarrayFcn</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsdata.interpolation/interpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m', 72)" style="font-weight:bold">tsdata.interpolation/interpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m',72,0)">line 72</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/resample', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m', 106)" style="font-weight:bold">timeseries/resample</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m',106,0)">line 106</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 32)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',32,0)">line 32</a>)] 
+
+rr =
+
+    1.0000    0.9995
+    0.9995    1.0000
+
+
+p =
+
+     1     0
+     0     1
+
+
+i =
+
+     5
+
+{Index exceeds matrix dimensions.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 27)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',27,0)">line 27</a>)
+    indx = find(newtime>max(tablet)); newtime = newtime(10:indx(1)); x = x(10:indx(1));
+} 
+subPlotXCorr
+
+i =
+
+     2
+
+[Warning: Cannot extrapolate] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>linearinter', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 145)" style="font-weight:bold">tsinterp>linearinter</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',145,0)">line 145</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>localInterpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 240)" style="font-weight:bold">tsinterp>localInterpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 89)" style="font-weight:bold">tsinterp</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',89,0)">line 89</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsarrayFcn', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m', 26)" style="font-weight:bold">tsarrayFcn</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsdata.interpolation/interpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m', 72)" style="font-weight:bold">tsdata.interpolation/interpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m',72,0)">line 72</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/resample', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m', 106)" style="font-weight:bold">timeseries/resample</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m',106,0)">line 106</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 35)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',35,0)">line 35</a>)] 
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('horzcat')" style="font-weight:bold">horzcat</a>
+Dimensions of matrices being concatenated are not consistent.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 46)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',46,0)">line 46</a>)
+    A = [smartpxx, newpxx];
+} 
+plot(newpxx)
+plot(smartpxx)
+minlen = min(length(newpxx), length(smartpxx));
+subPlotXCorr
+
+i =
+
+     2
+
+[Warning: Cannot extrapolate] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>linearinter', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 145)" style="font-weight:bold">tsinterp>linearinter</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',145,0)">line 145</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>localInterpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 240)" style="font-weight:bold">tsinterp>localInterpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 89)" style="font-weight:bold">tsinterp</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',89,0)">line 89</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsarrayFcn', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m', 26)" style="font-weight:bold">tsarrayFcn</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsdata.interpolation/interpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m', 72)" style="font-weight:bold">tsdata.interpolation/interpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m',72,0)">line 72</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/resample', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m', 106)" style="font-weight:bold">timeseries/resample</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m',106,0)">line 106</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 35)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',35,0)">line 35</a>)] 
+
+rr =
+
+    1.0000    0.9925
+    0.9925    1.0000
+
+
+p =
+
+     1     0
+     0     1
+
+
+i =
+
+     3
+
+[Warning: Cannot extrapolate] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>linearinter', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 145)" style="font-weight:bold">tsinterp>linearinter</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',145,0)">line 145</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>localInterpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 240)" style="font-weight:bold">tsinterp>localInterpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 89)" style="font-weight:bold">tsinterp</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',89,0)">line 89</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsarrayFcn', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m', 26)" style="font-weight:bold">tsarrayFcn</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsdata.interpolation/interpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m', 72)" style="font-weight:bold">tsdata.interpolation/interpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m',72,0)">line 72</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/resample', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m', 106)" style="font-weight:bold">timeseries/resample</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m',106,0)">line 106</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 35)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',35,0)">line 35</a>)] 
+
+rr =
+
+    1.0000    0.9923
+    0.9923    1.0000
+
+
+p =
+
+     1     0
+     0     1
+
+
+i =
+
+     4
+
+[Warning: Cannot extrapolate] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>linearinter', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 145)" style="font-weight:bold">tsinterp>linearinter</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',145,0)">line 145</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>localInterpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 240)" style="font-weight:bold">tsinterp>localInterpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 89)" style="font-weight:bold">tsinterp</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',89,0)">line 89</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsarrayFcn', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m', 26)" style="font-weight:bold">tsarrayFcn</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsdata.interpolation/interpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m', 72)" style="font-weight:bold">tsdata.interpolation/interpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m',72,0)">line 72</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/resample', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m', 106)" style="font-weight:bold">timeseries/resample</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m',106,0)">line 106</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 35)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',35,0)">line 35</a>)] 
+
+rr =
+
+    1.0000    0.9875
+    0.9875    1.0000
+
+
+p =
+
+     1     0
+     0     1
+
+
+i =
+
+     5
+
+[Warning: Cannot extrapolate] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>linearinter', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 145)" style="font-weight:bold">tsinterp>linearinter</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',145,0)">line 145</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>localInterpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 240)" style="font-weight:bold">tsinterp>localInterpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 89)" style="font-weight:bold">tsinterp</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',89,0)">line 89</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsarrayFcn', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m', 26)" style="font-weight:bold">tsarrayFcn</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsdata.interpolation/interpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m', 72)" style="font-weight:bold">tsdata.interpolation/interpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m',72,0)">line 72</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/resample', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m', 106)" style="font-weight:bold">timeseries/resample</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m',106,0)">line 106</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 35)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',35,0)">line 35</a>)] 
+
+rr =
+
+    1.0000    0.9772
+    0.9772    1.0000
+
+
+p =
+
+     1     0
+     0     1
+
+
+i =
+
+     6
+
+[Warning: Cannot extrapolate] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>linearinter', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 145)" style="font-weight:bold">tsinterp>linearinter</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',145,0)">line 145</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>localInterpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 240)" style="font-weight:bold">tsinterp>localInterpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 89)" style="font-weight:bold">tsinterp</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',89,0)">line 89</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsarrayFcn', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m', 26)" style="font-weight:bold">tsarrayFcn</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsdata.interpolation/interpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m', 72)" style="font-weight:bold">tsdata.interpolation/interpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m',72,0)">line 72</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/resample', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m', 106)" style="font-weight:bold">timeseries/resample</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m',106,0)">line 106</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 35)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',35,0)">line 35</a>)] 
+
+rr =
+
+    1.0000    0.9777
+    0.9777    1.0000
+
+
+p =
+
+     1     0
+     0     1
+
+
+i =
+
+     7
+
+[Warning: Cannot extrapolate] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>linearinter', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 145)" style="font-weight:bold">tsinterp>linearinter</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',145,0)">line 145</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>localInterpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 240)" style="font-weight:bold">tsinterp>localInterpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 89)" style="font-weight:bold">tsinterp</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',89,0)">line 89</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsarrayFcn', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m', 26)" style="font-weight:bold">tsarrayFcn</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsdata.interpolation/interpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m', 72)" style="font-weight:bold">tsdata.interpolation/interpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m',72,0)">line 72</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/resample', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m', 106)" style="font-weight:bold">timeseries/resample</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m',106,0)">line 106</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 35)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',35,0)">line 35</a>)] 
+
+rr =
+
+    1.0000    0.9755
+    0.9755    1.0000
+
+
+p =
+
+     1     0
+     0     1
+
+
+i =
+
+     8
+
+[Warning: Cannot extrapolate] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>linearinter', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 145)" style="font-weight:bold">tsinterp>linearinter</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',145,0)">line 145</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>localInterpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 240)" style="font-weight:bold">tsinterp>localInterpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 89)" style="font-weight:bold">tsinterp</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',89,0)">line 89</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsarrayFcn', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m', 26)" style="font-weight:bold">tsarrayFcn</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsdata.interpolation/interpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m', 72)" style="font-weight:bold">tsdata.interpolation/interpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m',72,0)">line 72</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/resample', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m', 106)" style="font-weight:bold">timeseries/resample</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m',106,0)">line 106</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 35)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',35,0)">line 35</a>)] 
+
+rr =
+
+    1.0000    0.9611
+    0.9611    1.0000
+
+
+p =
+
+     1     0
+     0     1
+
+
+i =
+
+     9
+
+[Warning: Cannot extrapolate] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>linearinter', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 145)" style="font-weight:bold">tsinterp>linearinter</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',145,0)">line 145</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>localInterpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 240)" style="font-weight:bold">tsinterp>localInterpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 89)" style="font-weight:bold">tsinterp</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',89,0)">line 89</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsarrayFcn', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m', 26)" style="font-weight:bold">tsarrayFcn</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsdata.interpolation/interpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m', 72)" style="font-weight:bold">tsdata.interpolation/interpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m',72,0)">line 72</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/resample', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m', 106)" style="font-weight:bold">timeseries/resample</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m',106,0)">line 106</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 35)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',35,0)">line 35</a>)] 
+
+rr =
+
+    1.0000    0.9558
+    0.9558    1.0000
+
+
+p =
+
+     1     0
+     0     1
+
+
+i =
+
+    10
+
+[Warning: Cannot extrapolate] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>linearinter', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 145)" style="font-weight:bold">tsinterp>linearinter</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',145,0)">line 145</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>localInterpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 240)" style="font-weight:bold">tsinterp>localInterpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 89)" style="font-weight:bold">tsinterp</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',89,0)">line 89</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsarrayFcn', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m', 26)" style="font-weight:bold">tsarrayFcn</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsdata.interpolation/interpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m', 72)" style="font-weight:bold">tsdata.interpolation/interpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m',72,0)">line 72</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/resample', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m', 106)" style="font-weight:bold">timeseries/resample</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m',106,0)">line 106</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 35)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',35,0)">line 35</a>)] 
+
+rr =
+
+    1.0000    0.9512
+    0.9512    1.0000
+
+
+p =
+
+     1     0
+     0     1
+
+indx = y(~isnan);
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('isnan')" style="font-weight:bold">isnan</a>
+Not enough input arguments.
+} 
+doc isnan
+subPlotXCorr
+
+i =
+
+     2
+
+[Warning: Cannot extrapolate] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>linearinter', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 145)" style="font-weight:bold">tsinterp>linearinter</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',145,0)">line 145</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>localInterpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 240)" style="font-weight:bold">tsinterp>localInterpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 89)" style="font-weight:bold">tsinterp</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',89,0)">line 89</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsarrayFcn', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m', 26)" style="font-weight:bold">tsarrayFcn</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsdata.interpolation/interpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m', 72)" style="font-weight:bold">tsdata.interpolation/interpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m',72,0)">line 72</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/resample', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m', 106)" style="font-weight:bold">timeseries/resample</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m',106,0)">line 106</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 35)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',35,0)">line 35</a>)] 
+
+rr =
+
+    1.0000    0.9966
+    0.9966    1.0000
+
+
+p =
+
+     1     0
+     0     1
+
+
+i =
+
+     3
+
+[Warning: Cannot extrapolate] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>linearinter', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 145)" style="font-weight:bold">tsinterp>linearinter</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',145,0)">line 145</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>localInterpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 240)" style="font-weight:bold">tsinterp>localInterpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 89)" style="font-weight:bold">tsinterp</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',89,0)">line 89</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsarrayFcn', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m', 26)" style="font-weight:bold">tsarrayFcn</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsdata.interpolation/interpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m', 72)" style="font-weight:bold">tsdata.interpolation/interpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m',72,0)">line 72</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/resample', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m', 106)" style="font-weight:bold">timeseries/resample</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m',106,0)">line 106</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 35)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',35,0)">line 35</a>)] 
+
+rr =
+
+    1.0000    0.9955
+    0.9955    1.0000
+
+
+p =
+
+     1     0
+     0     1
+
+
+i =
+
+     4
+
+[Warning: Cannot extrapolate] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>linearinter', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 145)" style="font-weight:bold">tsinterp>linearinter</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',145,0)">line 145</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>localInterpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 240)" style="font-weight:bold">tsinterp>localInterpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 89)" style="font-weight:bold">tsinterp</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',89,0)">line 89</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsarrayFcn', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m', 26)" style="font-weight:bold">tsarrayFcn</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsdata.interpolation/interpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m', 72)" style="font-weight:bold">tsdata.interpolation/interpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m',72,0)">line 72</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/resample', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m', 106)" style="font-weight:bold">timeseries/resample</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m',106,0)">line 106</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 35)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',35,0)">line 35</a>)] 
+
+rr =
+
+    1.0000    0.9985
+    0.9985    1.0000
+
+
+p =
+
+     1     0
+     0     1
+
+
+i =
+
+     5
+
+[Warning: Cannot extrapolate] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>linearinter', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 145)" style="font-weight:bold">tsinterp>linearinter</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',145,0)">line 145</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>localInterpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 240)" style="font-weight:bold">tsinterp>localInterpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 89)" style="font-weight:bold">tsinterp</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',89,0)">line 89</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsarrayFcn', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m', 26)" style="font-weight:bold">tsarrayFcn</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsdata.interpolation/interpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m', 72)" style="font-weight:bold">tsdata.interpolation/interpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m',72,0)">line 72</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/resample', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m', 106)" style="font-weight:bold">timeseries/resample</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m',106,0)">line 106</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 35)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',35,0)">line 35</a>)] 
+
+rr =
+
+    1.0000    0.9987
+    0.9987    1.0000
+
+
+p =
+
+     1     0
+     0     1
+
+
+i =
+
+     6
+
+[Warning: Cannot extrapolate] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>linearinter', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 145)" style="font-weight:bold">tsinterp>linearinter</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',145,0)">line 145</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>localInterpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 240)" style="font-weight:bold">tsinterp>localInterpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 89)" style="font-weight:bold">tsinterp</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',89,0)">line 89</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsarrayFcn', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m', 26)" style="font-weight:bold">tsarrayFcn</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsdata.interpolation/interpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m', 72)" style="font-weight:bold">tsdata.interpolation/interpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m',72,0)">line 72</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/resample', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m', 106)" style="font-weight:bold">timeseries/resample</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m',106,0)">line 106</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 35)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',35,0)">line 35</a>)] 
+
+rr =
+
+    1.0000    0.9994
+    0.9994    1.0000
+
+
+p =
+
+     1     0
+     0     1
+
+
+i =
+
+     7
+
+[Warning: Cannot extrapolate] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>linearinter', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 145)" style="font-weight:bold">tsinterp>linearinter</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',145,0)">line 145</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>localInterpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 240)" style="font-weight:bold">tsinterp>localInterpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 89)" style="font-weight:bold">tsinterp</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',89,0)">line 89</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsarrayFcn', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m', 26)" style="font-weight:bold">tsarrayFcn</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsdata.interpolation/interpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m', 72)" style="font-weight:bold">tsdata.interpolation/interpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m',72,0)">line 72</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/resample', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m', 106)" style="font-weight:bold">timeseries/resample</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m',106,0)">line 106</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 35)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',35,0)">line 35</a>)] 
+
+rr =
+
+    1.0000    0.9972
+    0.9972    1.0000
+
+
+p =
+
+     1     0
+     0     1
+
+
+i =
+
+     8
+
+[Warning: Cannot extrapolate] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>linearinter', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 145)" style="font-weight:bold">tsinterp>linearinter</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',145,0)">line 145</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>localInterpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 240)" style="font-weight:bold">tsinterp>localInterpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 89)" style="font-weight:bold">tsinterp</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',89,0)">line 89</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsarrayFcn', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m', 26)" style="font-weight:bold">tsarrayFcn</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsdata.interpolation/interpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m', 72)" style="font-weight:bold">tsdata.interpolation/interpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m',72,0)">line 72</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/resample', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m', 106)" style="font-weight:bold">timeseries/resample</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m',106,0)">line 106</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 35)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',35,0)">line 35</a>)] 
+
+rr =
+
+    1.0000    0.9989
+    0.9989    1.0000
+
+
+p =
+
+     1     0
+     0     1
+
+
+i =
+
+     9
+
+[Warning: Cannot extrapolate] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>linearinter', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 145)" style="font-weight:bold">tsinterp>linearinter</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',145,0)">line 145</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>localInterpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 240)" style="font-weight:bold">tsinterp>localInterpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 89)" style="font-weight:bold">tsinterp</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',89,0)">line 89</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsarrayFcn', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m', 26)" style="font-weight:bold">tsarrayFcn</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsdata.interpolation/interpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m', 72)" style="font-weight:bold">tsdata.interpolation/interpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m',72,0)">line 72</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/resample', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m', 106)" style="font-weight:bold">timeseries/resample</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m',106,0)">line 106</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 35)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',35,0)">line 35</a>)] 
+
+rr =
+
+    1.0000    0.9980
+    0.9980    1.0000
+
+
+p =
+
+     1     0
+     0     1
+
+
+i =
+
+    10
+
+[Warning: Cannot extrapolate] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>linearinter', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 145)" style="font-weight:bold">tsinterp>linearinter</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',145,0)">line 145</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp>localInterpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 240)" style="font-weight:bold">tsinterp>localInterpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsinterp', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m', 89)" style="font-weight:bold">tsinterp</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsinterp.m',89,0)">line 89</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsarrayFcn', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m', 26)" style="font-weight:bold">tsarrayFcn</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/tsarrayFcn.m',26,0)">line 26</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsdata.interpolation/interpolate', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m', 72)" style="font-weight:bold">tsdata.interpolation/interpolate</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/+tsdata/@interpolation/interpolation.m',72,0)">line 72</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/resample', '/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m', 106)" style="font-weight:bold">timeseries/resample</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/timeseries/@timeseries/resample.m',106,0)">line 106</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('subPlotXCorr', '/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m', 35)" style="font-weight:bold">subPlotXCorr</a> (<a href="matlab: opentoline('/Users/nikmac/Desktop/Thesis/Accelerometer_gig/Process_iPhone_Acceleration_Rotation/Shake_Table/subPlotXCorr.m',35,0)">line 35</a>)] 
+
+rr =
+
+    1.0000    0.9971
+    0.9971    1.0000
+
+
+p =
+
+     1     0
+     0     1
+
+subPlotXCorr

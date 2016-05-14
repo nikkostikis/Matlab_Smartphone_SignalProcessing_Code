@@ -1,4 +1,4 @@
-newtime = i6_js_t_normalized{10};
+newtime = i6_js_t_normalized;
 newtime = newtime./1000;
 plot(table10(:,1), 'b');
 hold on

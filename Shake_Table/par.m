@@ -20,7 +20,7 @@ for i = 2:10
     pkspks = pkslocs(1:3,1);
 %     plot(f, pxx, fpeaks, pkspks, 'or');
     i
-    pxxrms = rms(pxx)
+    pxxrms = rms(pxx)^2
     par1 = pkspks(1)^2/pxxrms
     par2 = pkspks(2)^2/pxxrms
     par3 = pkspks(3)^2/pxxrms
