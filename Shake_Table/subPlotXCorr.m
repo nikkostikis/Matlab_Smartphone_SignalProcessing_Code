@@ -9,8 +9,8 @@ nikCell_t = i4s_ntv_t_normalized; nikCell = i4s_ntv; Fs = 100;
 
 table_t; table; Fst = 800;
 
-diary 'cor.txt';
-diary on;
+% diary 'cor.txt';
+% diary on;
 
 figure(800);
 for i = 2:10
