@@ -9,7 +9,10 @@ nikCell_t = i4s_ntv_t_normalized; nikCell = i4s_ntv; Fs = 100;
 
 % nikCell_t = table_t; nikCell = table; Fs = 800;
 
-figure(300);
+figure300 = figure(300);
+axes1 = axes('Parent',figure300);
+hold(axes1,'on');
+
 for i = 2:10
     x = nikCell{i};
     t = nikCell_t{i};
@@ -28,6 +31,6 @@ for i = 2:10
     fpeaks = f(pkslocs(1:3,2));
     pkspks = pkslocs(1:3,1);
     hold all;
-    plot(f, pxx, fpeaks, pkspks, 'or');
-    
+    plot(f, pxx, fpeaks, pkspks, 'or', 'LineWidth', 2);
 end
+set(axes1,'FontSize',16);

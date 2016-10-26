@@ -1,0 +1,449 @@
+diary on;
+for i = 1:8
+    t = wsig{i}(:, 1);
+    x = wsig{i}(:, 2);
+    if t(end)>100 %happens only for non-table times
+        t = t./1000; % convert time to seconds - not for table feedback
+    end
+    [t ind] = unique(t); %a problem only for the i4
+    x = x(ind);
+    fss = min(Fs/2, 12);
+    
+    [pxx, f] = plomb(x, t, fss); %set fmax to 12 Hz
+    [pks, locs] = findpeaks(pxx);
+    pkslocs = sortrows([pks locs], -1);
+%     subplot(3,3,i-1);
+    fpeaks = f(pkslocs(1:3,2));
+    pkspks = pkslocs(1:3,1);
+%     plot(f, pxx, fpeaks, pkspks, 'or');
+    i
+    pxxrms = rms(pxx)^2
+    par1 = pkspks(1)^2/pxxrms
+    par2 = pkspks(2)^2/pxxrms
+    par3 = pkspks(3)^2/pxxrms
+end
+
+i =
+
+     1
+
+
+pxxrms =
+
+    0.8848
+
+
+par1 =
+
+   88.9392
+
+
+par2 =
+
+    0.2401
+
+
+par3 =
+
+    0.1782
+
+
+i =
+
+     2
+
+
+pxxrms =
+
+    0.7002
+
+
+par1 =
+
+   89.5110
+
+
+par2 =
+
+    0.2492
+
+
+par3 =
+
+    0.1011
+
+
+i =
+
+     3
+
+
+pxxrms =
+
+    0.7200
+
+
+par1 =
+
+   85.8664
+
+
+par2 =
+
+    0.2898
+
+
+par3 =
+
+    0.1021
+
+
+i =
+
+     4
+
+
+pxxrms =
+
+    0.7938
+
+
+par1 =
+
+   89.8641
+
+
+par2 =
+
+    0.1961
+
+
+par3 =
+
+    0.1035
+
+
+i =
+
+     5
+
+
+pxxrms =
+
+    0.6592
+
+
+par1 =
+
+   87.0855
+
+
+par2 =
+
+    0.3229
+
+
+par3 =
+
+    0.1803
+
+
+i =
+
+     6
+
+
+pxxrms =
+
+    0.6746
+
+
+par1 =
+
+   88.3717
+
+
+par2 =
+
+    0.2138
+
+
+par3 =
+
+    0.1730
+
+
+i =
+
+     7
+
+
+pxxrms =
+
+    0.8554
+
+
+par1 =
+
+   90.2931
+
+
+par2 =
+
+    0.2512
+
+
+par3 =
+
+    0.1953
+
+
+i =
+
+     8
+
+
+pxxrms =
+
+    0.7462
+
+
+par1 =
+
+   84.5907
+
+
+par2 =
+
+    0.1643
+
+
+par3 =
+
+    0.1306
+
+diary 'par_output_SegmentsIPhone4s.txt';
+diary on;
+for i = 1:8
+    t = wsig{i}(:, 1);
+    x = wsig{i}(:, 2);
+    if t(end)>100 %happens only for non-table times
+        t = t./1000; % convert time to seconds - not for table feedback
+    end
+    [t ind] = unique(t); %a problem only for the i4
+    x = x(ind);
+    fss = min(Fs/2, 12);
+    
+    [pxx, f] = plomb(x, t, fss); %set fmax to 12 Hz
+    [pks, locs] = findpeaks(pxx);
+    pkslocs = sortrows([pks locs], -1);
+%     subplot(3,3,i-1);
+    fpeaks = f(pkslocs(1:3,2));
+    pkspks = pkslocs(1:3,1);
+%     plot(f, pxx, fpeaks, pkspks, 'or');
+    i
+    pxxrms = rms(pxx)^2
+    par1 = pkspks(1)^2/pxxrms
+    par2 = pkspks(2)^2/pxxrms
+    par3 = pkspks(3)^2/pxxrms
+end
+
+i =
+
+     1
+
+
+pxxrms =
+
+    0.8848
+
+
+par1 =
+
+   88.9392
+
+
+par2 =
+
+    0.2401
+
+
+par3 =
+
+    0.1782
+
+
+i =
+
+     2
+
+
+pxxrms =
+
+    0.7002
+
+
+par1 =
+
+   89.5110
+
+
+par2 =
+
+    0.2492
+
+
+par3 =
+
+    0.1011
+
+
+i =
+
+     3
+
+
+pxxrms =
+
+    0.7200
+
+
+par1 =
+
+   85.8664
+
+
+par2 =
+
+    0.2898
+
+
+par3 =
+
+    0.1021
+
+
+i =
+
+     4
+
+
+pxxrms =
+
+    0.7938
+
+
+par1 =
+
+   89.8641
+
+
+par2 =
+
+    0.1961
+
+
+par3 =
+
+    0.1035
+
+
+i =
+
+     5
+
+
+pxxrms =
+
+    0.6592
+
+
+par1 =
+
+   87.0855
+
+
+par2 =
+
+    0.3229
+
+
+par3 =
+
+    0.1803
+
+
+i =
+
+     6
+
+
+pxxrms =
+
+    0.6746
+
+
+par1 =
+
+   88.3717
+
+
+par2 =
+
+    0.2138
+
+
+par3 =
+
+    0.1730
+
+
+i =
+
+     7
+
+
+pxxrms =
+
+    0.8554
+
+
+par1 =
+
+   90.2931
+
+
+par2 =
+
+    0.2512
+
+
+par3 =
+
+    0.1953
+
+
+i =
+
+     8
+
+
+pxxrms =
+
+    0.7462
+
+
+par1 =
+
+   84.5907
+
+
+par2 =
+
+    0.1643
+
+
+par3 =
+
+    0.1306
+
