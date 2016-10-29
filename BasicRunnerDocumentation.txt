@@ -1,0 +1,26 @@
+There are two runners, 
+
+runnerOH.m
+and
+runnerPD.m. 
+
+They are different to avoid changing directories each time they need to execute. 
+They perform the following tasks:
+1. clear pData.mat
+2. call saveSignals.m repeatedly, which is explained later
+3. loads pData.mat
+4. sorts it according to the names
+5. saves pData
+6. calls compMetrics.m, which is explained later. 
+For PD there are extra steps:
+7. call readScale.m, to read the UPDRS
+8. call keepCommonWithUPDRS to keep only the PD patients for whom there are UPDRS assessments.
+
+saveSignals.m:
+Takes a name and a folder. The name is actually a folder, so it runs separately for each 
+participant and appends his/her signals to pData.mat
+
+compMetrics.m:
+comp stands for computed. It calculates the metrics from the signals (pData.mat). 
+It deletes uComMetrics and pComMetrics because these are created later on by correlation.m. 
+They are the intersection of uMetrics and pMetrics
