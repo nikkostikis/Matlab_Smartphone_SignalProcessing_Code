@@ -1,0 +1,18 @@
+Testing
+
+Means Testing:
+# Performs means testing using the non-parametric Mann-Whitney test
+# Called by 
+# IntraMeansTesterAllMetrics_calls_mw.m
+# InterMeansTesterAllMetrics_calls_mw.m
+mw.m
+
+# Performs correlation analysis using corrcoef (Pearson)
+# There is also code for Spearman correlation test
+correlation.m
+
+# Performs periodogram analysis with PWelch periodogram
+periodogram_analysis.m
+
+
+See FilesReference for details
