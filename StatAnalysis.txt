@@ -1,0 +1,6 @@
+Testing:
+Normallity:
+Homoskedasticity:
+Means Testing:
+Means:
+St Devs:
