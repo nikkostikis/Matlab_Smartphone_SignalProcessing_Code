@@ -1,0 +1,13 @@
+The file responsible for calculating all classification in the jBHI paper is
+
+classification_baggedTree.m
+
+In this file, different schemes of training and testing were implemented. 
+
+No cross-correlation or percentage split was applied at the final model because the 
+algorithm used was a bagged forest of decision trees, so the out of bag error was used 
+as a validation criteria. 
+
+Matlab's TreeBagger class was used to create the model and then the TreeBagger.oobPredict 
+(out of bag prediction) was used to test the model. 
+
